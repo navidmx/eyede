@@ -12,6 +12,11 @@ export default class CodeEditor extends Component {
         const editor = this.ace.editor; // The editor object is from Ace's API
         console.log(editor.getValue()); // Outputs the value of the editor
     }
+
+    componentDidMount() {
+    console.log(this.read(1, 1, 2, 5));
+    } 
+
     render() {
         const editor = this.ace.editor;
 
@@ -90,4 +95,11 @@ export default class CodeEditor extends Component {
 
     }
     
+    read(from_line, from_col, to_line, to_col)
+    {
+        const editor = this.ace.editor;
+        return editor.env.document.getTextRange(new Range(from_line, from_col, to_line, to_col));
+    }
+
+
 }
