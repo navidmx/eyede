@@ -5,4 +5,4 @@ Submission for TartanHacks 2019 – an IDE for visually impaired and blind deve
 Navid Mamoon, Gabriel Rasskin, Adrian Kager, Jason Chadwick.
 
 ### Technology
-HTML/CSS/JavaScript (utilizing Ace.js), integration with Azure
+HTML/CSS/JavaScript (utilizing Ace.js), integration with Azure Speech and Language
