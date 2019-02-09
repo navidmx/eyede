@@ -5,9 +5,6 @@ import './layout.js';
 
 import CodeEditor from './codeeditor';
 
-import 'brace/mode/python';
-import 'brace/theme/github';
-
 class App extends Component {
     componentDidMount() {}
     render() {
